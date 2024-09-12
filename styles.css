@@ -1,0 +1,98 @@
+/* midoriJCH 12/09/2024 */ 
+
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#D90429, #2B2D42);
+    color: #EDF2F4;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 250px;
+    border-radius: 50%;
+    border: 6px solid #8D99AE;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #8D99AE;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #8D99AE;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 300px;
+}
+
+.gift-img {
+    margin: auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid #8D99AE;
+    border-radius: 10px;
+    background-image: url("images/lootbox2.png");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.discordapp.net/attachments/1032388477112819882/1039845782649585734/6BE55372-A1C3-4AE4-9199-206F4F03DFA7.gif?ex=66e36819&is=66e21699&hm=ba04144f11a2339dde88b3233e2f45b66e0a3af2e12b60266f2c8ca37eac3fa8&");
+    padding: 100px 0px;
+}
+
+
+#gift-img-hot:hover {
+    background-image: url("images/xqc-love.gif");
+    padding-right: 100px;
+}
+
+#gift-img-cool:hover {
+    background-image: url("images/grilla-yes.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/tenor\ \(4\).gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media1.tenor.com/m/hLmu_FG_4LwAAAAC/yes-wink.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
